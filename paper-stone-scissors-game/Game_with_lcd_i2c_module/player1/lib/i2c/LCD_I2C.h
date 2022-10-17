@@ -20,4 +20,6 @@ void lcd_msg(char *c);	  //----Function to Send String to LCD
 void delay(int ms);		  //----Delay function
 void lcd_lef_sh();		  //----Left Shifting Function
 void lcd_rig_sh();		  //----Right Shifting Function
+void lcd_x_y(uint8_t x_pos, uint8_t y_pos);
+void twi_lcd_clear();
 //----------------------//

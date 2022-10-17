@@ -1,5 +1,4 @@
 #include <lcd_i2c.h>
-#include <stdio.h>
 void toggle()
 {
     TWDR |= 0x02;                      //---PIN En de la LCD en = 1;  -----Latching data in to LCD data register using High to Low signal

@@ -131,7 +131,7 @@ int main(void)
       lcd_msg("Wins");
       break;
     }
-    _delay_ms(200);
+    _delay_ms(500);
     twi_lcd_clear();
   }
   return 0;
