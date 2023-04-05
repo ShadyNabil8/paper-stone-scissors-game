@@ -7,4 +7,7 @@ This code is written usuing platformio
 
 You can fing the F_CPU in the platformio.ini file
 
+# Simulation
+![Simulation](Simulation.PNG)
+
 
